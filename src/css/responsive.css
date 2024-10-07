@@ -1,0 +1,90 @@
+@media screen and (max-width: 500px){
+    .container{
+        width: 80vw;
+    }
+
+    .informations{
+        font-size: 8px;
+    }
+
+    #comment{
+        font-size: 10px;
+    }
+
+    .buttons{
+        gap: 5px;
+    }
+
+    .buttons button{
+        font-size: 10px;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 500px){
+    .informations{
+        font-size: 12px;
+    }
+
+    #comment{
+        font-size: 12px;
+    }
+
+    .buttons{
+        gap: 10px;
+    }
+
+    .buttons button{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 500px){
+    #comment{
+        font-size: 15px;
+    }
+
+    .buttons{
+        gap: 12px;
+    }
+
+    .buttons button{
+        height: 7vh;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:660px){
+    .container{
+        width: 70vw;
+        font-size: 15px;
+    }
+
+    .buttons button{
+        font-size: 22px;
+        width: 50vw;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width:800px){
+    .container{
+        width: 50vw;
+        font-size: 12px;
+    }
+
+    .buttons button{
+        font-size: 20px;
+        width: 30vw;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1070px){
+    .container{
+        width: 40vw;
+        font-size: 12px;
+    }
+
+    .buttons button{
+        font-size: 22px;
+        width: 30vw;
+    }
+}
