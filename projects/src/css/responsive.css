@@ -1,0 +1,217 @@
+/*               CELULARES                  */
+@media screen and (max-width: 660px){
+    .my-profile{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .hello-menu{
+        display: block;
+        height: 30%;
+    }
+
+    #avatar{
+        margin-left: 10px;
+        height: 70px;
+        width: 70px;
+        border: double 5px rgb(200, 200, 200);
+    }
+
+    .project-image{
+        margin-top: 10px;
+    }
+}
+
+@media screen{
+
+    #title{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #my-name{
+        font-size: 18px;
+    }
+
+    .projects{
+        display: block;
+        margin-left: 0px;
+    }
+
+    .projects image{
+        margin-left: 0px;
+    }
+
+    .project-image{
+        display: flex;
+        justify-content: center;
+    }
+
+    button{
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        width: 55vw;
+        height: 10vh;
+        margin-left: 25%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 350px){
+    .projects{
+        margin-top: 0px;
+    }
+    
+    #my-name{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 550px){
+    .hello-menu{
+        display: flex;
+        height: 20%;
+    }
+
+    .my-profile{
+        width: 60%;
+        height: 100%;
+        margin-left: 30px;
+    }
+
+    #avatar{
+        height: 90px;
+        width: 90px;
+    }
+
+    #my-name{
+        text-align: center;
+    }
+
+    .projects{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    button{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 660px){
+    #title{
+        font-size: 4vw;
+    }
+
+    .my-profile{
+        width: 60vw;
+    }
+
+    #my-name{
+        margin-left: 12px;
+    }
+
+    button{
+        width: 40vw;
+        height: 6.5vh;
+    }
+}
+
+@media screen and (min-width: 760px){
+    .my-profile{
+        width: 50%;
+    }
+
+    #title{
+        margin-top: 0px;
+        font-size: 32px;
+    }
+
+    #avatar{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 810px){
+    .my-profile{
+        width: 45%;
+    }
+    #title{
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    #avatar{
+        margin-left: 0px;
+        border: double 8px rgb(200, 200, 200);
+    }
+
+    button{
+        width: 35vw;
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 950px){
+    #avatar{
+        height: 100px;
+        width: 100px;
+    }
+
+    .my-profile{
+        width: 30%;
+    }
+
+    #title{
+        margin-left: 10px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    #avatar{
+        height: 110px;
+        width: 110px;
+    }
+
+    .my-profile{
+        width: 30%;
+    }
+
+    #title{
+        margin-left: 50px;
+        font-size: 30px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .my-profile{
+        width: 30%;
+    }
+
+    #title{
+        margin-left: 50px;
+        font-size: 35px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1111px) {
+    .my-profile{
+        width: 26%;
+    }
+
+    #title{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+
+    #my-name{
+        font-size: 22px;
+    }
+}
