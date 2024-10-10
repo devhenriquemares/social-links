@@ -71,11 +71,16 @@ body{
     height: 150px;
     width: 150px;
     border-radius: 20px;
-    border: double 6px ;
+    border: double 6px var(--cor4);
     margin-left: 10px;
+    transition: .5s;
 }
 
-
+.projects:has(a > button:hover) img{
+    border-color: var(--cor2);
+    width: 180px;
+    height: 180px;
+}
 
 button{
     background-color: var(--cor1);
@@ -95,4 +100,5 @@ button:hover{
     color: #1f1f1f;
     box-shadow: 10px 10px 5px var(--cor2) inset;
     cursor: pointer;
+    height: 8.5vh;
 }
