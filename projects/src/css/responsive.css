@@ -1,4 +1,10 @@
 /*               CELULARES                  */
+@media screen and (max-width: 594px){
+    button{
+        margin-bottom: 20px;
+    }
+}
+
 @media screen and (max-width: 660px){
     .my-profile{
         width: 100vw;
@@ -23,7 +29,6 @@
 }
 
 @media screen{
-
     #title{
         margin-top: 15px;
         text-align: center;
