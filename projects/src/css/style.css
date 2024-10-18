@@ -76,6 +76,17 @@ body{
     transition: .5s;
 }
 
+@media screen and (min-width: 769px) {
+    .projects img{
+        opacity: 70%;
+    }
+
+    .projects:has(a > button:hover) img{
+        opacity: 100%;
+        border-width: 7.5px;
+    }
+}
+
 .projects:has(a > button:hover) img{
     border-color: var(--cor2);
     width: 180px;
